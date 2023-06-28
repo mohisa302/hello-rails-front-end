@@ -1,53 +1,55 @@
 <a name="readme-top"></a>
 
-<div align="center">
-<h3><b>Hello-Rails-Back-End </b></h3>
-</div>
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Hello React\] ](#-hello-react-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Testing](#testing)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [🙏 Acknowledgements](#acknowledgements)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [📝 License ](#-license-)
 
-# 📖 Hello Rails Back End <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-A practice setup of a back end React app that is accessed by a React frontend app. Click this [Hello-React-Front-End](https://github.com/Thoth1111/Hello-React-Front-End) link to access the frontend app's repo.
+# 📖 [Hello React] <a name="about-project"></a>
+
+> This is a front end project for the "Hello World" project. You can find the back end API endpoint project here: [Hello Rails Back End](https://github.com/mohisa302/hello-rails-backend)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- Ruby on Rails
-- PostgreSQL
+> HTML, CSS, Javascript and linter template
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **React Frontend**
-- **Built as an Api**
+- **[Single_Page_Application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 🚀 Live Demo
-No demo available
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -55,72 +57,107 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: rails, postgresSQL
+In order to run this project you need to run:
+
+```sh
+ npm install
+```
 
 ### Setup
 
-Clone the repo and open terminal in the project root directory
+Clone this repository to your desired folder:
+
+````sh
+  cd hello-react-front-end
+  git clone git@github.com:mohisa302/hello-rails-front-end.git
 
 ### Install
 
 Install this project with:
 
-```sh
-bundle install
-rails db:create
-rails db:migrate
-```
 
-Create `.env` file in the root directory & add the database configurations. To use seed data, run `rails db:seed`.
+
+```sh
+  cd hello-rails-front-end
+  node version 16 or higher
+````
 
 ### Usage
 
 To run the project, execute the following command:
 
-```sh
-rails s
+```
+  npm start
 ```
 
+### Testing
+
+To run the project, execute the following command:
+
+```
+  npm run test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+- GitHub Pages
+- Netlify
+- Heroku
+- Cyclic
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-**Alwyn Androvelle**
+👤 **Mohi**
 
-- Github: [@Thoth1111](https://github.com/Thoth1111)
-- Twitter: [@androvelle](https://twitter.com/androvelle)
-- LinkedIn: [@Alwyn](https://linkedin.com/in/alwyn-androvelle-simiyu)
+- GitHub: [@mohisa302](https://github.com/mohisa302)
+- Twitter: [@Kholochelam](https://twitter.com/Kholochelam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohadese-sadeghi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **NA**
+- [ ] **[More_cities]**
+- [ ] **[Search_box]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Thoth1111/Hello-Rails-Back-End/issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project or find it useful, please consider giving it a ⭐️. Thanks!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- CONTRIBUTING -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Thoth1111/Hello-Rails-Back-End/blob/main/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
