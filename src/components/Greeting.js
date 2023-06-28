@@ -1,29 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchGreeting } from '../redux/reducers/greetingReducer';
 
 function Greeting() {
-  const [greeting, setGreeting] = useState('');
-  const [error, setError] = useState('');
-
+  const dispatch = useDispatch();
+  const { greeting, loading, error } = useSelector((state) => state.greeting);
   useEffect(() => {
-    fetch('http://localhost:3000/api/random_greeting')
-      .then((response) => response.json())
-      .then((data) => setGreeting(data.greeting))
-      .catch((error) => setError(error));
-  }, []);
+    dispatch(fetchGreeting());
+  }, [dispatch]);
 
   return (
     <div className="home">
-      <h1>Random Greeting</h1>
-      {error ? (
-        <p>
-          Error:
-          {error.toString()}
-        </p>
-      ) : (
-        <p>{greeting}</p>
+      {loading && (
+        <div className="spinner-border" role="status">
+          <span className="sr-only" />
+        </div>
       )}
+      {error && <h2>Something went wrong!</h2>}
+      {!loading && <h1>{greeting}</h1>}
     </div>
   );
 }
-
 export default Greeting;
