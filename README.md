@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <h3><b>Hello React</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -24,6 +18,7 @@
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
+  - [🙏 Acknowledgements](#acknowledgements)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [📝 License ](#-license-)
 
@@ -136,6 +131,12 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
